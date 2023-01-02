@@ -204,7 +204,7 @@
     height: 3px;
   }
   #ac-mobile-menu {
-    margin-top: 0.6rem;
+    margin-top: 0.2rem;
     margin-right: 0.7rem;
   }
 }
@@ -215,28 +215,21 @@
     height: 3px;
   }
   #ac-mobile-menu {
-    margin-top: 0.3rem;
-    left: 300px;
-  }
-  #ac-navbar__logo {
-    font-size: 1.6rem;
-    margin-right: 1rem;
-    left: 5px;
-    padding: auto 0;
+    margin-top: 0.2rem;
   }
 }
 @media screen and (max-width: 281px) {
-  .ac-navbar__toggle .bar {
+  .ac-navbar__toggle .ac-bar {
     padding: 0;
     width: 25px;
     height: 3px;
   }
   #ac-mobile-menu {
     margin-top: 0.25rem;
-    left: 190px;
+    margin-right: 0.1rem;
   }
   #ac-navbar__logo {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-right: 1rem;
     left: 5px;
     padding: auto 0;
@@ -276,7 +269,6 @@
     height: 90vh;
   }
 }
-
 
 /* Services Section CSS */
 
@@ -763,30 +755,22 @@
   #ac-res h2 {
     left: 60px;
   }
-  .ac-text {
-    font-size: 0.8rem;
-    top: 370px;
-  }
-  .ac-text__op {
-    font-size: 0.8rem;
-    top: 370px;
+  .ac-services__card p {
+    top: 280px;
+    left: 20px;
   }
 }
 @media screen and (max-width: 281px) {
   .ac-services {
     height: 550vh;
     display: flex;
-    width: 100%;
-    text-align: center;
-    align-items: center;
   }
   .ac-services h1 {
-    font-size: 1.2rem;
-    margin-right: 25px;
+    font-size: 1.5rem;
   }
   .ac-services__card {
     width: 230px;
-    right: 11px;
+    margin: 1rem;
     height: 400px;
   }
   .ac-services__card a {
@@ -797,7 +781,7 @@
     left: 65px;
   }
   .ac-services__card p {
-    top: 230px;
+    top: 200px;
     left: 20px;
   }
   #ac-hotel h2 {
@@ -816,15 +800,15 @@
     top: 10px;
   }
   #ac-res h2 {
-    left: 20px;
+    left: 30px;
   }
   .ac-text {
     font-size: 0.8rem;
-    top: 370px;
+    top: 350px;
   }
   .ac-text__op {
     font-size: 0.8rem;
-    top: 370px;
+    top: 350px;
   }
 }
 
